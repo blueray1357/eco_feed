@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_feedy__near_me">Map</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="create_feed">Create Feed!</string>
+    <string name="last_name">Last Name</string>
+    <string name="Last_Name">Last_Name</string>
+    <string name="First_Name">First_Name</string>
+</resources>

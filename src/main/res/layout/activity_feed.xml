@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_feed"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:id="@+id/QRcode"
+        android:layout_width="109dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="587dp"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#318D18"
+        android:text="S C A N"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/friendlist"
+        android:layout_width="109dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="585dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#287A13"
+        android:text="F R I E N D S"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/checkedout"
+        android:layout_width="109dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="281dp"
+        android:layout_marginTop="585dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#226910"
+        android:text="C H E C K E D    O U T"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="359dp"
+        android:layout_height="168dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="177dp" />
+
+    <TextView
+        android:id="@+id/nearme"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="342dp"
+        android:text="F E E D Y  N E A R  M E"
+        android:textAlignment="center"
+        android:textColor="#3E5F19" />
+
+    <TextView
+        android:id="@+id/myFeed"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="488dp"
+        android:text="MY FEED: "
+        android:textAlignment="center"
+        android:textColor="#486918"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="336dp"
+        android:layout_marginBottom="668dp"
+        android:background="#00000000"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableStart="@drawable/ic_action_menu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="502dp"
+        android:text="10"
+        android:textAlignment="center"
+        android:textSize="100dp" />
+
+    <Button
+        android:id="@+id/menubutton"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="342dp"
+        android:layout_marginBottom="662dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:backgroundTint="#00FFFFFF" />
+
+</RelativeLayout>

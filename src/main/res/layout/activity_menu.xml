@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="209dp"
+        android:layout_height="197dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="447dp"
+        app:srcCompat="@drawable/ic_action_menu" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="390dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="N A M E" />
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="399dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="297dp"
+        android:text="H I S T O R Y"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/nothing"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="255dp"
+        android:text="No History"
+        android:textAlignment="center"
+        android:textColor="#4D6B27"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="364dp"
+        android:text="B I O : Hello! Nice to meet you!"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="309dp"
+        android:layout_marginBottom="664dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Return"
+        android:textColor="#36921A" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="662dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Edit"
+        android:textColor="#36921A" />
+</RelativeLayout>
